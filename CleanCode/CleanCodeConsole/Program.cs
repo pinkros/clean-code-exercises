@@ -2,9 +2,9 @@
 
 var godless = new GodlessTesting();
 
-Console.WriteLine("This is test for testing AddString");
+Console.WriteLine("This is test for testing RandomHundredInts");
 
-if (godless.AddStrings_ReturnOneString())
+if (godless.RandomHundredInts_ReturnsExpectedList())
 {
     Console.WriteLine("Wahoo, the test succeded! \\o/");
 }
